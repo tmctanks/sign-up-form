@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root{
+    font-family: 'Montserrat', Ariel, Verdana ;
+    font-size: 2.2vh;
+}
+
+body{
+    margin: 0px;
+    display:flex;
+    flex-direction: row;
+}
+
+img{
+    height:100vh;
+    width:30vw;
+}
+
+#wytech{
+    position:absolute;
+    top:45vh;
+    left:7vw;
+    font-size:3vh;
+    color: white;
+}
+
+#content{
+    font-size: rem;
+    background-color:#e3e1e1;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+#formcont{
+    background-color:white;
+}
+
+#done{
+    height:60px;
+    width:200px;
+    background-color:#435240;
+    border-radius:8px;
+    color:white;
+    box-shadow: none;
+    border-color:#435240;
+    font-size: 20px;
+    font-weight:500;
+    margin-left: 4vw;
+}
+
+form{
+    margin-top:10vh;
+    margin-bottom:5vh;
+    padding-top:2vh;
+    padding-bottom:4vh;
+    padding-left:4vw;
+    background-color: white;
+    height:35vh;
+}
+
+input{
+    width:275px;
+    font-size: 23px;
+}
+
+#info{
+    display: flex;
+    flex-flow: column wrap;
+    height: 250px;
+    gap:20px
+}
+
+#toptext{
+    margin-left:4vw;
+    margin-top: 6vw;
+    width:40vw;
+}
+
+#bottomtext{
+    margin-left:4vw;
+    margin-top:2vh;
+}
+
+a{
+    text-decoration: none;
+    color:#435240;
+}
